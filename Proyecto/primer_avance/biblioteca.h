@@ -68,13 +68,16 @@ void Biblioteca::agregarJuego(
 }
 
 /**
- * mostrarJuegos muestra la información de todos los videojuegos
+ * mostrarJuegos muestra la información de todos los videojuegos ordenados
+ * de forma ascendente
  * 
- * Utiliza juegos[i] para acceder a cada elemento del vector, 
- * recorre el vector juegos y accede a cada elemento almacenado.
+ * Primero crea un objeto OrdenadorJuegos y lo utiliza para
+ * ordenar el vector con bubble sort, despues utiliza juegos[i]
+ * para acceder a cada elemento del vector, recorre el vector 
+ * juegos y accede a cada elemento almacenado.
  * Cada posicion del vector contiene un apuntador a un objeto Videojuego.
  * 
- * Por medio del metodo mostrarInfo() se muestrala informacion de 
+ * Por medio del metodo mostrarInfo() se muestra la información de 
  * cada videojuego.
  */
 void Biblioteca::mostrarJuegos() {
