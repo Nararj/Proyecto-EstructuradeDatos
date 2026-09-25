@@ -1,8 +1,7 @@
-# Proyecto: Nombre de tu proyecto
+# Proyecto: Bibioteca videojuegos
 - La idea de este proyecto es permitir al usuario registrar, organizar y visualizar videojuegos según su género donde el sistema incluye juegos de acción, RPG y aventura gráfica, cada uno con características específicas.
 
 ## Descripción del avance 1
-- Este es un proyecto anterior hecho en la clase de "Programación orientada a objetos" en segundo semestre, por lo que las clases bilbioteca, juegoAccion, juegoAventuraGrafica, juegoRPG, usuario, videojuego y el main ya estaban hechas.
 - En este avance se agrego una clase llamada "ordenar" que accede a el vector de juegos para ordenar estos dependiendo de su calificación de manera ascendente y al momento de que el usuario pida mostrar los juegos estos aparezcan ya ordenados, esto mandando a llamar a esta funcion en biblioteca la momento de mostrar los juegos.
 - Se agregó tambien la clase "sistema" que paso el funcionamiento del main a esta clase para que el main quedara más limpio.
 
